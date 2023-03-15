@@ -1,0 +1,34 @@
+div{
+    width: 100px;
+    height: 100px;
+    background: rgb(212, 212, 255);
+    transition: 4s;
+    margin-top: 10px;
+}
+/* Especificar un efecto de transición con la misma velocidad de principio a fin. */
+.div1{
+    transition-timing-function: linear;
+}
+.div2{
+    /* Inicia lento, luego se va rápido y al final es lento, con una valor predeterminado
+    ease-out= lento pero solo al final
+    ease-in-out: principío lento y final lento*/
+    transition-timing-function: ease;
+}
+.div3{
+    /* Lo que hace es inicial lento */
+    transition-timing-function: ease-out;
+    background: rgb(255, 195, 255);
+}
+.div4{
+    background: rgb(255, 154, 154);
+    transition: width 2s, heiht 2s transform 4s ;
+}
+
+div:hover{
+    width: 300px;
+    height: 300px;
+    transform: translate(50%);
+    /* transform: scale(2); */
+    /* transform: rotateZ(-90deg); */
+}

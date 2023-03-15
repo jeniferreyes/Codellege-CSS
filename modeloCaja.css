@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.caja{
+    background: rgb(211, 171, 211);
+    width: 250px;
+    /* margin: 20px 10px; */
+    margin: 20px;
+    /* arriba, derecha, abajo izquierda cada uno de los valores del margin
+    
+    otra forma es hacer padding por padding
+    
+    
+    */
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 10px;
+
+    border: 10px solid wheat;
+}
+body{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+    /* 
+        line-height: 20px;
+        espaciado de linea a linea */
+}
+.caja p{
+    background: rgb(142, 82, 142);
+}
+   

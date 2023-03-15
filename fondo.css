@@ -1,0 +1,15 @@
+/* background */
+
+body{
+    /* background: url(./imagenes/imagen10.jpg);
+    background-repeat: no-repeat; */
+    /* Para que la imagen no se repita en su eje x y/o y */
+    /* background-size: cover; */
+    /*cubre el 100% d emi contenido  vertical y el ocver cubre todo mi sitio web*/
+    /* background-position: center center;
+    background-attachment: scroll; */
+    background-color: url(./imagenes/imagen10.jpg) no-repeat center center fixed;
+    background-size: 200px;
+    
+
+}

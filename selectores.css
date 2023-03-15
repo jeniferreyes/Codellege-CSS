@@ -1,0 +1,40 @@
+/* div{
+    background-color: red;
+} */
+*{
+    /* Selector universal */
+}
+div{
+    background-color: rgb(255, 172, 78);
+}
+
+h3{
+    background-color: blue;
+}
+div p{
+    color: white;
+}
+div p a{
+    color: blueviolet;
+}
+.contenedor{
+    background-color: #D6BDFD;
+}
+#parrafo{
+    font-size: 24px;
+}
+/* 
+    Selectores avanzados
+    Pero input que principalmente son utilizados en formularios
+*/
+input[type="submit"]:hover{
+    background-color: #000;
+}
+input[type="text"]{
+    background-color: #ccc;
+    text-decoration: underline;
+}
+div>p{
+    /* se va directo del div al parrafo */
+    font-size: 24px;
+}

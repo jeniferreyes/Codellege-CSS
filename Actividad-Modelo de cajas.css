@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&family=Sora:wght@800&family=Vollkorn:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&family=Sora:wght@800&family=Vollkorn:ital@0;1&display=swap');
+
+img{
+    height: 350px;
+    box-shadow: 5px 5px 8px rgb(185, 185, 185);
+}
+body{
+    background-color: #ebc5e4;
+}
+.titulo1, .subtitulo{
+    font-family: 'Sora', sans-serif;
+}
+.titulo1{
+    font-size: 25px;
+    color: #cee87d;
+}
+.texto{
+    color:  #1e0907;
+    font-family: 'Work Sans', sans-serif;
+    ;
+    font-size: 20px;
+}
+.subtitulo{
+    font-size: 35pxpx;
+    color: #d0cc64;
+
+}
+.general{
+    background-color: #fffbfa;
+    height: 100%;
+    width: 900px;
+    margin: auto;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    
+}

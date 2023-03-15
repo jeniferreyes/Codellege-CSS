@@ -1,0 +1,43 @@
+/* body{
+    background: rosybrown;
+}
+/* 1-arriba
+    2. abajo
+    3. izq
+    4. derecha
+
+
+
+
+*/
+
+
+
+h1{
+    text-shadow: 2px 5px 2px red;
+    
+} */
+/* Efecto difuminado */
+/* .profundidad{
+    color: #fff;
+    text-shadow: 2px 2px 10px #000;
+}
+h3{
+    text-shadow: 0 0 6px #ffa600;
+} */
+.card{
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+}
+.header{
+    color: #fff;
+    background: rgb(143, 225, 143);
+    font-size: 35px;
+    padding: 10px;
+}
+.contenedor{
+    padding: 10px;
+}
+
+
